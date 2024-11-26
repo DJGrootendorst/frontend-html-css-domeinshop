@@ -14,9 +14,15 @@ Table of Contents:
 
 /*////////////////////////
     1. Global Styles
-////////////////////////*/
+//////////////////////////
 
+*{padding: 0;margin: 0;box-sizing: border-box;} */
 
+h1{
+    color: #899CA0
+    color: #1C2B32
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /*////////////////////////
     2. Typography
@@ -31,12 +37,58 @@ Table of Contents:
 
 
 /*///////////// 3.1 Header /////////////*/
+body{
+    font-family: Poppins, sans-serif;
+}
+header{
+  background-image: url("../assets/images/mountains.jpg");
+background-size: cover;
+}
+.header-container
+{
+    h1 {
+        font-size: 120px;
+        font-weight: bold;
+        margin-top: -220px;
+    }
+    padding: 300px;
 
+    input[type="text"] {
+        border-radius: 8px;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+    button {
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        background-color: black;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
 
-
+}
 /*///////////// 3.2 Testimonial /////////////*/
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    text-align: center;
+}
 
-
+.container2 {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    text-align: center;
+}
 
 /*///////////// 3.3 Support /////////////*/
 
@@ -47,3 +99,14 @@ Table of Contents:
 
 
 /*///////////// 3.5 Footer /////////////*/
+
+.black-background {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 12px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
